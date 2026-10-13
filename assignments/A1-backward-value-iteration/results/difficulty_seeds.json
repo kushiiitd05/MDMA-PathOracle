@@ -1,0 +1,57 @@
+{
+  "protocol": {
+    "pool_seeds": [
+      0,
+      499
+    ],
+    "start": [
+      1,
+      1
+    ],
+    "goal": [
+      28,
+      28
+    ],
+    "obstacles": 180,
+    "grid": [
+      30,
+      30
+    ],
+    "quantiles": {
+      "easy": 0.2,
+      "medium": 0.5,
+      "hard": 0.9
+    },
+    "rank_key": "(stretch, turns, seed)"
+  },
+  "accepted": 480,
+  "rejected_disconnected": 20,
+  "stretch_min_median_max": [
+    1.0,
+    1.0,
+    1.1111111111111112
+  ],
+  "selected": {
+    "easy": {
+      "seed": 219,
+      "d_opt": 54,
+      "d_manhattan": 54,
+      "stretch": 1.0,
+      "turns": 14
+    },
+    "medium": {
+      "seed": 435,
+      "d_opt": 54,
+      "d_manhattan": 54,
+      "stretch": 1.0,
+      "turns": 17
+    },
+    "hard": {
+      "seed": 288,
+      "d_opt": 56,
+      "d_manhattan": 54,
+      "stretch": 1.037037037037037,
+      "turns": 16
+    }
+  }
+}
